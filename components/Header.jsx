@@ -4,7 +4,7 @@ import Link from "next/link";
 function Header() {
   return (
     <div>
-      <p>I'm the header</p>
+      <p>I am the header</p>
       <ul>
         <li>
           <Link href="/">
