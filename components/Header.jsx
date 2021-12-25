@@ -26,6 +26,11 @@ function Header() {
             <a>Projects</a>
           </Link>
         </li>
+        <li>
+          <Link href="/withPropsFromAPI">
+            <a>with props from api</a>
+          </Link>
+        </li>
       </ul>
 
       <hr />
