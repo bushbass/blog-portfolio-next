@@ -12,6 +12,10 @@ function withPropsFromAPI({data}) {
     const res = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
     const data = await res.json()
   
+// even though this endpoint returns a random data, since this runs at build time
+// if you reload the page after build it will no give a new random data
+//  the random data is only provided once, at build time
+
     if (!data) {
       return {
         notFound: true,
