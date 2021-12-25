@@ -31,6 +31,11 @@ function Header() {
             <a>with props from api</a>
           </Link>
         </li>
+        <li>
+          <Link href="/withSSRPropsFromAPI">
+            <a>SSR with props from api</a>
+          </Link>
+        </li>
       </ul>
 
       <hr />
